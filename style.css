@@ -1,0 +1,97 @@
+h1 {
+  color:darkslategray
+}
+
+h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+  color:#000000;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+a {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+a:hover {color:black}
+
+h2 {
+  color: darkslateblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+  border-radius: 100%;
+  border-style:   ;
+  border-color: #E1C300;
+
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  position: center;
+}
+.block_1 {
+  width: 30%;
+  background-color: rgb(200, 200, 240);
+  padding: 1cm;
+  text-align: center;
+  border-style: double;
+  box-shadow: 0px 1px 18px -1px #000000;
+  line-height: 1cm;
+}
+
+.button {
+  background-color:cornflowerblue;
+  padding: 15px 20px;
+  border-radius: 4px;
+  width: 1cm;
+}
+
+.x {
+  display: flex;
+  justify-content: center;
+}
+.follow {
+  width: 30%;
+  background-color: rgb(200, 200, 240);
+  padding: 1cm;
+  text-align: center;
+  border-style: double;
+  box-shadow: 0px 1px 18px -1px #000000;
+  margin: 20px 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+x
